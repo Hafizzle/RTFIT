@@ -1,17 +1,17 @@
-package com.hafizzle.rtfit;
+package com.hafizzle.rtfit.Resources;
 
 import com.google.gson.annotations.SerializedName;
 
 public class Post {
 
-    private int userID;
+    private int userId;
     private int id;
     private String title;
     @SerializedName("Body")
     private String text;
 
-    public int getUserID() {
-        return userID;
+    public int getUserId() {
+        return userId;
     }
 
     public int getId() {
